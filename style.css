@@ -1,0 +1,76 @@
+*{
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    padding: unset;
+    margin:  unset;
+
+
+
+    box-sizing: border-box;
+
+    list-style: none;
+    text-decoration: none;
+
+
+}
+/* flexbox */
+
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 32px;
+
+
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+
+}
+
+.jumbotron {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/assets/fondo\ jumboton\ ejesdesign.jpg");
+    background-size: cover;
+    background-position: center;
+
+}
+
+.jumbotron h1 {
+    font-size: 56px;
+    padding: 12px 32px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "inter";
+    
+
+
+
+}
+
+button {
+    display: flex;
+    background-color: #1a1a1a;
+    font-size: 16px;
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 10px 38px 10px 38px;
+
+
+
+
+
+
+
+
+
+}
