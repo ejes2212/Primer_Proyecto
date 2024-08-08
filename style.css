@@ -24,7 +24,6 @@ header nav {
     align-items: center;
     padding: 20px 32px;
 
-
 }
 
 header nav ul {
@@ -51,9 +50,6 @@ header nav ul {
     color: #ffffff;
     font-weight: 700;
     font-family: "inter";
-    
-
-
 
 }
 
@@ -65,12 +61,18 @@ button {
     border-radius: 10px;
     padding: 10px 38px 10px 38px;
 
+}
 
+.tarjetas {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 30px 30px 30px;
+    background-color: #F5F5F5;  
 
+}
 
-
-
-
-
+.sobrenosotros{
+    display: flex;
+    justify-content: space-between;
 
 }
