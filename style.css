@@ -25,6 +25,19 @@ header nav {
     padding: 20px 32px;
 
 }
+h2 {
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h3 {
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h4 {
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
 header nav ul {
     display: flex;
@@ -58,16 +71,37 @@ button {
     background-color: #1a1a1a;
     font-size: 16px;
     color: #ffffff;
-    border-radius: 10px;
+    border-radius: 0px;
     padding: 10px 38px 10px 38px;
 
 }
 
 .tarjetas {
+    width: 100%;
     display: flex;
+    gap: 20px;
     justify-content: space-between;
-    padding: 30px 30px 30px 30px;
+    padding:30px 30px 30px 30px;
     background-color: #F5F5F5;  
+    overflow: hidden;
+}
+
+.tarjetas-caja{
+
+}
+
+.imagentarjeta{
+    width: 100%;
+}
+
+.textotarjetas{
+    padding: 30px 30px 30px 30px;
+}
+
+
+.botontarjeta{
+    width: 100%;
+    justify-content: center;
 
 }
 
