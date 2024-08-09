@@ -1,7 +1,6 @@
 *{
     font-size: 1rem;
-    font-weight: 400;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: "Inter", Tahoma, sans-serif;
 
     padding: unset;
     margin:  unset;
@@ -22,21 +21,9 @@ header nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 32px;
-
-}
-h2 {
-    font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-h3 {
-    font-size: medium;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h4 {
-    font-size: small;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px 80px;
+    font-family: "Inter";
+    font-weight: 500;
 }
 
 header nav ul {
@@ -44,7 +31,15 @@ header nav ul {
     justify-content: space-between;
     align-items: center;
     gap: 32px;
+}
 
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+}
+h3 {
+    font-size: 22px;
+    font-weight: 700;
 }
 
 .jumbotron {
@@ -54,26 +49,36 @@ header nav ul {
     background-image: url("/assets/fondo\ jumboton\ ejesdesign.jpg");
     background-size: cover;
     background-position: center;
-
+    padding-left: 80px;
+    width: 100%;
 }
 
 .jumbotron h1 {
     font-size: 56px;
-    padding: 12px 32px;
     color: #ffffff;
     font-weight: 700;
-    font-family: "inter";
+    font-family: "Inter";
+}
 
+.jumbotron div {
+    width: 50%;
+    padding: 0px;
+}
+
+.jumbotron-img {
+    width: 100%;
+    height: 100%;
 }
 
 button {
     display: flex;
     background-color: #1a1a1a;
     font-size: 16px;
+    font-weight: 700;
     color: #ffffff;
-    border-radius: 0px;
-    padding: 10px 38px 10px 38px;
-
+    border-radius: 10px;
+    padding: 10px 38px;
+    border:none;
 }
 
 .tarjetas {
@@ -81,13 +86,12 @@ button {
     display: flex;
     gap: 20px;
     justify-content: space-between;
-    padding:30px 30px 30px 30px;
+    padding:60px 80px;
     background-color: #F5F5F5;  
-    overflow: hidden;
 }
 
 .tarjetas-caja{
-
+background-color: #ffffff;
 }
 
 .imagentarjeta{
@@ -95,18 +99,92 @@ button {
 }
 
 .textotarjetas{
-    padding: 30px 30px 30px 30px;
+    padding: 20px 20px;
 }
 
+.descripciontarjeta {
+    font-size: 16px;
+    font-weight: 400;
+    color: #7F7F7F;
+}
 
-.botontarjeta{
+.precio {
+    font-size: 18px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.divprecio {
+    padding: 0px 20px 20px 20px;
+}
+
+button.botontarjeta{
+    border-radius: 0px;
     width: 100%;
     justify-content: center;
-
 }
 
 .sobrenosotros{
     display: flex;
     justify-content: space-between;
+    padding: 60px 80px;
+    width: 100%;
+}
 
+.sobrenosotros-texto {
+    width: 60%;
+    background-color: #F5F5F5;
+    padding: 60px 80px;
+    align-content: center;
+}
+
+.sobrenosotros-texto p {
+ color: #282828;
+ font-size: 19px;
+ padding: 10px 0px 30px 0px;
+}
+
+.sobrenosotros-imagen {
+    width: 40%;
+}
+
+.imagensobrenosotros{
+    width: 100%;
+}
+
+.footer{
+    background-color: #000000;
+    width: 100%;
+    display: flex;
+    padding: 30px 80px;
+}
+
+.divfooter{
+    color: #ffffff;
+    width: 20%;
+}
+
+.divfooter li{
+    padding-bottom: 8px;
+}
+
+.divfooter-logo {
+    width: 60%;
+}
+
+.logofooter{
+    width: 20%;
+}
+
+.footer-secundario {
+    background-color: #000000;
+    display: flex;
+    justify-content: space-between;
+    color: #7F7F7F;
+    width: 100%;
+    padding: 10px 80px;
+}
+
+.footer-secundario p{
+    font-size: 16px;
 }
